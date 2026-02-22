@@ -43,7 +43,7 @@ Retorna informações gerais do perfil do jogador.
 | `key`      | string | Sim         | Chave de autenticação da API |
 
 ### Exemplo de Requisição
-``https://skyapi.onrender.com/skyblock/player/profile/data?id=<nickname>&key=<CHAVE>``
+``https://skyapi.onrender.com/skyblock/player/profile?id=<nickname>&key=<CHAVE>``
 
 ---
 
@@ -60,7 +60,7 @@ Retorna os dados de inventário vinculados ao perfil do jogador.
 | `key`      | string | Sim         | Chave de autenticação da API |
 
 ### Exemplo de Requisição
-``https://skyapi.onrender.com/skyblock/player/inventories/data?id=<nickname>:<slot do perfil>&key=<CHAVE>``
+``https://skyapi.onrender.com/skyblock/player/inventories?id=<nickname>:<slot do perfil>&key=<CHAVE>``
 
 ---
 
