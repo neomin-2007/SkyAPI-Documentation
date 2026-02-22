@@ -61,6 +61,7 @@ Retorna os dados de inventário vinculados ao perfil do jogador.
 
 ### Exemplo de Requisição
 ``https://skyapi.onrender.com/skyblock/player/inventories/data?id=<nickname>:<slot do perfil>&key=<CHAVE>``
+
 ---
 
 # 📌 Observações
