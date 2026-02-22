@@ -73,10 +73,3 @@ Retorna os dados de inventário vinculados ao perfil do jogador.
 
 ---
 
-# 🛠️ Base URL
-
----
-
-# 📄 Licença
-
-Uso interno ou conforme termos definidos pelo desenvolvedor.
