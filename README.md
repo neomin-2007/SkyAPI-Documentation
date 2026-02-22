@@ -1,2 +1,6 @@
-# SkyAPI-Documentation
-A guide to using RedeCanary SkyBlock API.
+# DOCUMENTAÇÃO
+
+**Rotas Disponíveis**
+``/skyblock/island/data``
+``/skyblock/player/profile/data``
+``/skyblock/player/inventories/profile/data``
