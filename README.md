@@ -26,6 +26,7 @@ Retorna todas as informações relacionadas à ilha do jogador.
 | `key`      | string | Sim         | Chave de autenticação da API |
 
 ### Exemplo de Requisição
+``https://skyapi.onrender.com/skyblock/island/data?id=<ISLAND_REDIRECT>&key=<CHAVE>``
 
 ---
 
@@ -38,9 +39,11 @@ Retorna informações gerais do perfil do jogador.
 
 | Parâmetro | Tipo   | Obrigatório | Descrição |
 |------------|--------|-------------|------------|
+| `id`       | string | Sim         | ID sendo o nome de usuário do jogador |
 | `key`      | string | Sim         | Chave de autenticação da API |
 
 ### Exemplo de Requisição
+``https://skyapi.onrender.com/skyblock/player/profile/data?id=<nickname>&key=<CHAVE>``
 
 ---
 
@@ -53,10 +56,11 @@ Retorna os dados de inventário vinculados ao perfil do jogador.
 
 | Parâmetro | Tipo   | Obrigatório | Descrição |
 |------------|--------|-------------|------------|
+| `id`       | string | Sim         | ID sendo o nome de usuário do jogador e o slot de perfil |
 | `key`      | string | Sim         | Chave de autenticação da API |
 
 ### Exemplo de Requisição
-
+``https://skyapi.onrender.com/skyblock/player/inventories/data?id=<nickname>:<slot do perfil>&key=<CHAVE>``
 ---
 
 # 📌 Observações
